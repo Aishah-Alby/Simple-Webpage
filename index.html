@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A'ishah A. Ibrahim | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>A'ishah A. Ibrahim</h1>
+      <p>Frontend Developer</p>
+      <hr />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services-form">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="bio">
+        <h2></h2>
+
+        <p>
+          Hello there! I'm a passionate frontend developer with expertise in
+          creating beautiful, functional websites and applications.
+        </p>
+        <p>
+          When I'm not coding, I enjoy reading, traveling, and exploring new
+          technologies in the web development space.
+        </p>
+      </section>
+
+      <section id="services">
+        <h2>Sevices</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>UI/UX Design</li>
+          <li>Content Creation</li>
+          <li>Responsive Design</li>
+        </ul>
+      </section>
+
+      <section class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2025-06-05 16.59.31 - a modern and clean UI_UX design for a website, showing wireframes and prototype elements, using a bright color palette and contemporary layout.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 1</h3>
+            <p>Description of project 1</p>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2025-06-05 16.59.35 - a modern and clean video-taking interface, showing a video camera and recording elements, such as red record button and a timeline at the bottom, in a.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 2</h3>
+            <p>Description of project 2</p>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2025-06-05 16.59.40 - a modern and clean website design with a homepage, showing a large hero section, a navigation bar at the top, and sections for services, about us, and.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 3</h3>
+            <p>Description of project 3</p>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2024-10-31 17.06.55 - A detailed system architecture diagram for an AI web study assistant, showing six key layers. The diagram includes___1. __Frontend (User Interface Lay.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 4</h3>
+            <p>Description of project 4</p>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2025-06-05 16.59.31 - a modern and clean UI_UX design for a website, showing wireframes and prototype elements, using a bright color palette and contemporary layout.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 5</h3>
+            <p>Description of project 5</p>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-cell">
+            <div class="project-image">
+              <img
+                src="images/DALL·E 2025-06-05 16.59.35 - a modern and clean video-taking interface, showing a video camera and recording elements, such as red record button and a timeline at the bottom, in a.webp"
+                alt=""
+              />
+            </div>
+            <h3>Project 6</h3>
+            <p>Description of project 6</p>
+          </div>
+        </div>
+      </section>
+      <section id="services-form">
+        <h2>Seeking Our Services?</h2>
+        <form>
+          <label for="fname">Full Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            required
+            minlength="2"
+          /><br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          /><br />
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="123-456-7890"
+          /><br />
+          <!-- change this to radio button -->
+          <!-- change this to checkbox -->
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company" /><br />
+          <label for="stype">Service Type</label>
+          <select id="stype" name="stype">
+            <option value="webdev">Web Development</option>
+            <option value="uiux">UI/UX Design</option>
+            <option value="content">Content Creation</option>
+            <option value="responsive">Responsive Design</option></select
+          ><br />
+          <label for="budget">Budget</label>
+          <input
+            type="number"
+            id="budget"
+            name="budget"
+            min="0"
+            step="100"
+          /><br />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="25"
+            required
+            minlength="10"
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <address>
+          Email:
+          <a href="mailto:aishahabdulmajeed@gmail.com"
+            >aishahabdulmajeed@gmail.com</a
+          ><br />
+          Phone: <a href="tel:+2349031234567">+234 903 123 4567</a><br />
+          LinkedIn:<a
+            href="https://www.linkedin.com/in/aishahibrahim"
+            target="_blank"
+            >A'ishah A. Ibrahim</a
+          ><br />
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <p>&copy ; 2025 A'ishah A. Ibrahim. All rights reserved</p>
+    </footer>
+  </body>
+</html>
